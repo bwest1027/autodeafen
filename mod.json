@@ -1,0 +1,25 @@
+{
+	"geode": "2.0.0-beta.15",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "creo.anti_dartino",
+	"name": "Autodeafen",
+	"developer": "Creo",
+	"description": "for those who are tired of dartino",
+	"settings": {
+        "adEnabled": {
+            "name": "Enable autodeafen",
+            "description": "self explanatory",
+            "type": "bool",
+            "default": false
+        },
+        "adPercent": {
+            "name": "Autodeafen percent",
+            "description": "When autodeafen should be enabled",
+            "type": "int",
+			"min": 1,
+            "max": 100,
+            "default": 5
+        }
+	}
+}
